@@ -1,0 +1,5 @@
+now-mobile-landing
+node_modules
+.next
+.DS_Store
+*.log
