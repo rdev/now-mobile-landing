@@ -81,7 +81,7 @@ export default () => (
 					</div>
 				</div>
 			</section>
-			<section className="features">
+			<section className="features" id="features">
 				<h2>Features</h2>
 				<Feature
 					title="Event History"
@@ -138,7 +138,7 @@ export default () => (
 					Instances and Usage widgets
 				</Feature>
 			</section>
-			<section className="watch">
+			<section className="watch" id="apple-watch">
 				<h2>Apple Watch App</h2>
 				<img src="/static/watch.jpg" alt="apple watch" width="256px" />
 				<ul>
@@ -148,7 +148,7 @@ export default () => (
 					<li>Watch face complications (usage, instance count)</li>
 				</ul>
 			</section>
-			<section className="screenshots">
+			<section className="screenshots" id="screenshots">
 				<div>
 					<h2>Screenshots</h2>
 					<div className="screenshots-container">
@@ -165,7 +165,7 @@ export default () => (
 				</div>
 			</section>
 			<section>
-				<div className="contributing-container">
+				<div className="contributing-container" id="contributing">
 					<h2>Contributing</h2>
 					<span>The app is fully Open Source and is available on GitHub</span>
 					<div className="link-group">
@@ -178,6 +178,10 @@ export default () => (
 							<span style={{ marginTop: 20 }}>ZEIT API Docs</span>
 						</a>
 					</div>
+					<br />
+					<span style={{ marginTop: 20 }}>
+						You can also <a href="/static/now-mobile.sketch">download the design</a> in Sketch format
+					</span>
 				</div>
 			</section>
 			<footer>
@@ -311,7 +315,7 @@ export default () => (
 					justify-content: space-around;
 				}
 				
-				.contributing-container a {
+				.contributing-container > div a {
 					display: flex;
 					flex-direction: column;
 					justify-content: center;
@@ -327,7 +331,11 @@ export default () => (
 					transition: box-shadow 0.2s ease, transform 0.2s ease;
 				}
 
-				.contributing-container a:hover {
+				.contributing-container > span a {
+					color: black;
+				}
+
+				.contributing-container > div a:hover {
 					box-shadow: 10px 18px 60px rgba(0, 0, 0, 0.2);
 					transform: translateY(-5px);
 				}
