@@ -160,6 +160,7 @@ export default () => (
 							<img src="/static/screenshots/5.jpg" alt="screenshot-5" height="432px" width="243px" />
 							<img src="/static/screenshots/6.jpg" alt="screenshot-6" height="432px" width="243px" />
 							<img src="/static/screenshots/7.jpg" alt="screenshot-7" height="432px" width="243px" />
+							<img src="/static/screenshots/8.jpg" alt="screenshot-8" height="432px" width="243px" />
 						</Carousel>
 					</div>
 				</div>
