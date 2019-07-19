@@ -82,7 +82,7 @@ export default () => (
 				</div>
 			</section>
 			<section className="features" id="features">
-				<h2>Features</h2>
+				<h2>Zero Config Test</h2>
 				<Feature
 					title="Event History"
 					icon="md-list"
